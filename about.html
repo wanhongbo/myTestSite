@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About | TickFlow</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --line: #e5e7eb;
+      --brand: #2563eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card: #111827;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+        --line: #374151;
+        --brand: #60a5fa;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 28px;
+    }
+    h1, h2 { line-height: 1.3; }
+    h1 { margin: 0 0 8px; font-size: 2rem; }
+    h2 { margin-top: 28px; font-size: 1.15rem; }
+    p, li { color: var(--muted); }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .updated { margin-top: 0; color: var(--muted); font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <article class="card">
+      <h1>About TickFlow</h1>
+      <p class="updated">Version: 1.0.0</p>
+
+      <p>
+        TickFlow is a simple and focused productivity application designed to help you
+        capture tasks, organize priorities, and stay on track every day.
+      </p>
+
+      <h2>What We Offer</h2>
+      <ul>
+        <li>Task creation and editing with clear priorities.</li>
+        <li>Categories and scheduling support for better planning.</li>
+        <li>Reminders to help you never miss important work.</li>
+        <li>Weekly insights to review your progress.</li>
+      </ul>
+
+      <h2>Our Mission</h2>
+      <p>
+        We believe productivity tools should be fast, private, and easy to use.
+        TickFlow focuses on practical features without unnecessary complexity.
+      </p>
+
+      <h2>Platform Support</h2>
+      <p>
+        TickFlow is built with Flutter and supports both Android and iOS.
+      </p>
+
+      <h2>Feedback</h2>
+      <p>
+        We value your feedback and feature ideas. Contact us at
+        <a href="mailto:support@tickflow.example">support@tickflow.example</a>.
+      </p>
+    </article>
+  </main>
+</body>
+</html>
