@@ -48,6 +48,15 @@
     h2 { margin-top: 28px; font-size: 1.15rem; }
     p, li { color: var(--muted); }
     .updated { margin-top: 0; color: var(--muted); font-size: 0.95rem; }
+    .email-link { overflow-wrap: anywhere; word-break: break-word; }
+    @media (max-width: 640px) {
+      .container { padding: 20px 12px 28px; }
+      .card { padding: 18px; border-radius: 12px; }
+      h1 { font-size: 1.6rem; }
+      h2 { margin-top: 22px; font-size: 1.05rem; }
+      p, li { font-size: 0.95rem; }
+      ul { padding-left: 18px; }
+    }
   </style>
 </head>
 <body>
@@ -119,7 +128,7 @@
       <h2>10. Contact</h2>
       <p>
         For questions about these Terms, contact:
-        support@tickflow.example
+        <a class="email-link" href="mailto:70862340@qq.com">70862340@qq.com</a>
       </p>
     </article>
   </main>
